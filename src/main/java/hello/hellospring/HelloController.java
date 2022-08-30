@@ -43,6 +43,7 @@ public class HelloController {
         return "hello-template";
     }
 
+    /** test **/
     @GetMapping("hello")
     public String hello(Model model) {
         model.addAttribute("data", "hello!!");
